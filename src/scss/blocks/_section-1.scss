@@ -1,0 +1,106 @@
+.section-1 {
+	padding: 40px 0 45px 0;
+	background: url("../img/yellow-bg.png") no-repeat;
+	background-size: cover;
+	height: 1022px;
+	overflow: hidden;
+	.cloud-block {
+		position: relative;
+		margin-top: 35px;
+		.cloud-img {
+			position: absolute;
+			top: 0;
+			left: -60px;
+			z-index: 0;
+		}
+		.title {
+			position: relative;
+			z-index: 1;
+			background: url("../img/small-yellow-bg.png");
+			background-size: cover;
+			padding: 27px 15px 27px 30px;
+			margin-top: 125px;
+			p {
+				font-family: $black-font;
+				text-transform: uppercase;
+				font-size: 28px;
+				color: #101010;
+				line-height: 28px;
+			}
+		}
+		.description {
+			position: relative;
+			z-index: 1;
+			padding-left: 27px;
+			p {
+				font-family: $black-font;
+				text-transform: uppercase;
+				font-size: 24px;
+				color: #101010;
+				line-height: 24px;
+				margin-top: 42px;
+			}
+		}
+	}
+	.btn-block {
+		position: relative;
+		z-index: 1;
+		margin-top: 45px;
+	}
+	.man-img-block {
+		position: relative;
+		margin-top: 35px;
+		.man-img {
+			position: absolute;
+			top: 0;
+			left: -220px;
+		}
+	}
+}
+.btn-block {
+	.yellow-btn {
+		display: inline-block;
+		font-family: $black-font;
+		color: #000000;
+		font-size: 24px;
+		text-transform: uppercase;
+		text-align: center;
+		background: url("../img/small-btn.png") no-repeat;
+		background-size: contain;
+		padding: 21px 24px;
+		margin-left: 110px;
+		transition: .3s ease-out;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		&:hover {
+			background: url("../img/small-btn-hover.png") no-repeat;
+			background-size: contain;
+		}
+		/*&:before {
+			content: '';
+			position: absolute;
+			left: -8px;
+			top: 0;
+			bottom: 0;
+			border: 70px solid transparent;
+			border-top: 0px solid transparent;
+			border-right: 8px solid #fef357;
+			border-left: 0 solid transparent;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: -8px;
+			border: 8px solid transparent;
+			border-bottom: 0 solid transparent;
+			border-right: 0 solid transparent;
+			border-left: 254px solid #fef357;
+			transform: scale(1, -1);
+			!*box-shadow: 0px 10px 0px 0px rgba(0,0,0,1);*!
+		}*/
+	}
+}
+

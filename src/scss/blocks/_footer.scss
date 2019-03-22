@@ -1,0 +1,46 @@
+footer {
+	background: url("../img/white-bg-2.png");
+	background-size: cover;
+	padding: 45px 0 113px 0;
+	p {
+		font-family: $reg-font;
+		color: #090909;
+		text-align: center;
+		font-size: 15px;
+	}
+	.feedback-form {
+		margin-top: 25px;
+	}
+	.form-group {
+		margin-bottom: 18px;
+	}
+	.btn-block {
+		display: flex;
+		justify-content: center;
+		.yellow-btn {
+			margin-left: 0;
+			padding: 20px 49px;
+		}
+	}
+	.feedback-text {
+		margin-top: 35px;
+	}
+	.feedback {
+		margin-bottom: 50px;
+		p {
+			font-family: $reg-font;
+			font-size: 15px;
+			color: #090909;
+			text-align: left;
+			&:first-child {
+				font-family: $black-font;
+				font-size: 24px;
+				color: #000000;
+				margin-bottom: 18px;
+			}
+		}
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

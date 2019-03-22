@@ -1,0 +1,36 @@
+.section-5 {
+	background: url("../img/violet-bg.png");
+	background-size: cover;
+	padding: 40px 0 237px 0;
+	h2 {
+		color: #ffffff;
+		margin-bottom: 25px;
+	}
+	.form-block {
+		position: relative;
+		.form-group {
+			margin-bottom: 18px;
+		}
+	}
+	.btn-block {
+		display: flex;
+		justify-content: center;
+	}
+	.yellow-btn {
+		margin-left: 0;
+	}
+	.img-block {
+		position: absolute;
+		bottom: -196px;
+		right: -385px;
+	}
+}
+input, textarea {
+	border: none;
+	outline: none;
+	font-family: $black-font;
+	color: #c2c2c2;
+	padding: 22px 0 22px 40px;
+	background: #ffffff;
+	width: 100%;
+}

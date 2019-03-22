@@ -1,0 +1,43 @@
+.section-7 {
+	background: url("../img/blue-bg-2.png");
+	background-size: cover;
+	padding-top: 25px;
+	.contact-img {
+		text-align: left;
+	}
+	.contacts-block {
+		margin-top: 50px;
+	}
+	.contacts {
+		background: #ffffff;
+		padding: 45px 15px 70px 15px;
+		text-align: center;
+		h2 {
+			margin-bottom: 20px;
+		}
+	}
+	.number {
+		margin-top: 25px;
+		a {
+			font-family: $black-font;
+			font-size: 36px;
+			color: #000000;
+		}
+		p {
+			font-family: $reg-font;
+			font-size: 15px;
+			color: #090909;
+			margin-top: -10px;
+		}
+	}
+	.instagram {
+		text-align: center;
+		margin-top: 40px;
+		p {
+			font-family: $black-font;
+			font-size: 18px;
+			color: #000000;
+			margin-top: 10px;
+		}
+	}
+}

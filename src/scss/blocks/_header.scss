@@ -1,0 +1,56 @@
+header {
+	.logo {
+		text-align: center;
+	}
+	.navbar {
+		padding: 0;
+	}
+	.header-menu {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		ul {
+			list-style-type: none;
+			li {
+				display: inline-block;
+				font-family: $black-font;
+				color: #000000;
+				font-size: 18px;
+				text-transform: uppercase;
+				margin-right: 20px;
+				padding: 5px 15px;
+				background: transparent;
+				background-size: cover;
+				transition: .3s;
+				&:hover {
+					background: url("../img/hover-menu.png") no-repeat;
+					background-size: cover;
+					color: #ffffff;
+				}
+			}
+		}
+	}
+	.menu-btn {
+		display: none;
+	}
+	.header-place {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		flex-flow: row wrap;
+	}
+	.place-block, .metro-block {
+		background: url("../img/place-icon.png") no-repeat center left;
+		padding-left: 55px;
+		p {
+			font-family: $bold-font;
+			color: #0a0b0d;
+			font-size: 18px;
+		}
+	}
+	.metro-block {
+		background: url("../img/metro-icon.png") no-repeat center left;
+		padding-left: 79px;
+		margin-left: 35px;
+	}
+}

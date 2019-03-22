@@ -1,0 +1,41 @@
+.section-3 {
+	background: url("../img/blue-bg-2.png") no-repeat;
+	background-size: cover;
+	padding-bottom: 40px;
+	.steps-img {
+		padding: 0;
+		margin-top: 16px;
+		img {
+			width: 100%;
+		}
+	}
+	h2 {
+		color: #ffffff;
+	}
+	.steps-list {
+		margin-top: 40px;
+	}
+	ul {
+		list-style-type: none;
+		margin-top: 10px;
+		li {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			background: url("../img/small-yellow-list-bg.png");
+			width: 100%;
+			margin-bottom: 10px;
+			padding-left: 24px;
+			p {
+				font-size: 18px;
+				font-family: $black-font;
+				color: #000000;
+				&:first-child {
+					font-family: $lucky-font;
+					font-size: 48px;
+					margin-right: 50px;
+				}
+			}
+		}
+	}
+}
